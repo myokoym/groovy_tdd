@@ -1,7 +1,7 @@
 class MessageFilter {
   def word
   MessageFilter(word) {
-    word = word
+    this.word = word
   }
 
   def isDetect(text) {
