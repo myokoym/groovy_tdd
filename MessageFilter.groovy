@@ -1,5 +1,6 @@
 class MessageFilter {
   def word
+
   MessageFilter(word) {
     this.word = word
   }
@@ -8,3 +9,4 @@ class MessageFilter {
     text.contains(word)
   }
 }
+
