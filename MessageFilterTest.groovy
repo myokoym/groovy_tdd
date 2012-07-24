@@ -1,9 +1,11 @@
 import groovy.util.GroovyTestCase
 
 class MessageFilterTest extends GroovyTestCase {
-  def subject
-  void setUp() {
-    subject = new MessageFilter()
+  void testDetectMessageWithNGWord() {
+    def filter = new MessageFilter('foo')
+    def expected = true
+    def actual = filter.isDetect('hello from foo')
+    assertEquals(expected, actual)
   }
 }
 
