@@ -5,7 +5,7 @@ class MessageFilterTest extends GroovyTestCase {
     def filter = new MessageFilter('foo')
     def expected = true
     def actual = filter.isDetect('hello from foo')
-    assertEquals(expected, actual)
+    assert expected == actual
   }
 }
 
