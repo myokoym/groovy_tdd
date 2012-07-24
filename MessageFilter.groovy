@@ -3,4 +3,7 @@ class MessageFilter {
   MessageFilter(word) {
     word = word
   }
+
+  def isDetect(text) {
+  }
 }
