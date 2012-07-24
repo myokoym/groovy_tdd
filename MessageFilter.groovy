@@ -5,5 +5,6 @@ class MessageFilter {
   }
 
   def isDetect(text) {
+    true
   }
 }
