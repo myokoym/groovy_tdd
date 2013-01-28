@@ -6,6 +6,6 @@ class Dollar {
   }
 
   void times(int multiplier) {
-    amount = amount * multiplier;
+    amount *= multiplier;
   }
 }
